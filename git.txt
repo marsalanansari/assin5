@@ -1,0 +1,24 @@
+GIT & GitHub (DVCS)
+
+1) Download and install git fron 
+	git-scm.com
+2) To iniyialize your folder to make it repository use
+	git init
+3) To check status of your file use
+	git status
+4) a) To track or stage your file use
+	git add -A
+   b) If after any modification you will again do
+	git add -A
+5) git config --global user.name "XYZ"
+	Press Enter
+   git config --global user.email "abc@xyz.com"
+6) To commit / store your code use
+	git commit -m "Your Message"
+   	
+7) Signup account on github.com
+8) Make new repository on github.com
+9) Connect your local repo with remote repo using
+	git remote add origin <link>
+10) Push your code using:
+	git push -u origin master
